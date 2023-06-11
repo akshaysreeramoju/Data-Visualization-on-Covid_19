@@ -12,19 +12,23 @@ Data collected from the [kaggle](https://www.kaggle.com/datasets)
 Clone the project
 
 ```bash
-  git clone https://github.com/vishnucipher/stockvisualize.git
+  https://github.com/akshaysreeramoju/Data-Visualization-on-Covid_19.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd stockvisualize
+  cd Data-Visualization-on-Covid_19
 ```
 
 Install dependencies
 
 ```bash
   pip install pandas
+  pip install numpy
+  pip install matplotlib
+  pip install seaborn
+  pip install plotly
   pip install streamlit
   
 ```
@@ -32,5 +36,5 @@ Install dependencies
 Start 
 
 ```bash
-  streamlit run stock.py
+  streamlit run Covid_19.py
 ```
